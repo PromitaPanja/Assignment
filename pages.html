@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>TEST</h2>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="#">Client</a>
+  <a href="#">Search</a>
+  <a href="#">Status</a>
+</div>
+
+
+<div class="row" class="main">
+
+  <div class="column">  <!-- 1 -->
+    <table>
+      <tr>
+        <th>Most leads</th>
+      </tr>
+      <tr>  <td>Name</td> <td>Test</td></tr>
+      <tr>  <td>phone no</td> <td >1234</td></tr>
+      <tr>  <td>email</td> <td>test@mail.com</td></tr>
+      <tr>  <td>address</td> <td>123-abc</td></tr>
+    </table>
+  </div>
+  <div class="column">   <!-- 2 -->
+    <table>
+      <tr>
+        <th>Types of income</th>
+      </tr>
+      
+        <tr><td><input type="checkbox" name="">default checkbox<td></tr>
+        <tr><td><input type="checkbox" name="">default checkboxess<td></tr>
+        <tr><td><input type="checkbox" name="">defaulttt<td></tr>
+        <tr><td><input type="checkbox" name="">defaulttt<td></tr>
+    </table>
+  </div>
+  <div class="column"> <!-- 3 -->
+    <table>
+      <tr>
+        <th>Request zone</th>
+      </tr>
+      <tr>
+       <td> <p>Transfer this account to another user or to an organization where you have the ability to create repositories.</p> </td>
+      </tr>
+      <tr class="flexy"><td><input type="button" name="" value = "abc" class="button"></td>
+          <td><input type="button" name="" value = "abc1" class="button"></td>
+          <td><input type="button" name="" value = "meeting" class="button"></td>
+          <td><input type="button" name="" value = "doc review" class="button"></td>
+      </tr>
+        
+        
+    </table>
+  </div>
+  <div class="column">   <!-- 4 -->
+    <table>
+      <tr>
+        <th>Previous meetings</th>
+      </tr>
+      <tr style="font-weight: bold;">
+        <td>1</td>
+        <td>22 Feb,2022</td>
+      </tr>
+      <tr style="font-weight: bold;">
+        <td>2</td>
+        <td>26 Feb,2022</td>
+      </tr>
+      <tr style="font-weight: bold;">
+        <td>3</td>
+        <td>1 Mar,2022</td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+</body>
+
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+</script>
+   
+
+
+
+</html>
